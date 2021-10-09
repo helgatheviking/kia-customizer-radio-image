@@ -1,0 +1,50 @@
+// Colors.
+$white: #fff;
+$customizer_blue: #007cba;
+$gray: #c2c2c2;
+
+.customize-control-kia-radio-image {
+
+    legend {
+        padding: 0;
+    }
+
+    input[type="radio"] { display: none; }
+
+    .radio-image__options-wrapper {
+        display: flex;
+    }
+
+    label {
+        overflow: hidden;
+        border-width: .125em;
+        border-color: transparent;
+        border-style: solid;
+        text-align: center;
+        border-radius: .25em;
+        padding: 1em;
+        width: calc((100%/4) - 2em);
+        margin: 0 .25em .25em 1em;
+    }
+
+    label > img {
+        display: block;
+        margin: 0 auto 1em auto;
+    }
+
+    input[type="radio"]:checked + label {
+        border-color: $customizer_blue;
+        background: $white;
+    }
+
+    img {
+        box-sizing: border-box;
+        max-width:  100%;
+        height:     auto;
+    }
+
+    label:hover,
+    label:focus {
+        background: lighten( $gray, 10 );
+    }
+}
