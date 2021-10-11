@@ -40,7 +40,7 @@ class KIA_Customizer_Radio_Image_Control extends \WP_Customize_Control {
 
 		// We need to make sure we have the correct image URL.
 		foreach ( $this->choices as $value => $args ) {
-			$this->choices[ $value ]['url'] = esc_url( $args['img'] );
+			$this->choices[ $value ]['image'] = esc_url( $args['image'] );
 		}
 
 		$this->json['choices'] = $this->choices;
@@ -75,8 +75,8 @@ class KIA_Customizer_Radio_Image_Control extends \WP_Customize_Control {
 					<input type="radio" value="{{ key }}" name="_customize-{{ data.type }}-{{ data.id }}" id="{{ data.id }}-{{ key }}" {{{ data.link }}} <# if ( key === data.value ) { #> checked="checked" <# } #> />
 
 					<label for="{{ data.id }}-{{ key }}" class="{{ key }}">
-						<# if ( data.choices[ key ]['img'] ) { #>
-							<img src="{{ data.choices[ key ]['img'] }}" alt="{{ data.choices[ key ]['label'] }}" />
+						<# if ( data.choices[ key ]['image'] ) { #>
+							<img src="{{ data.choices[ key ]['image'] }}" alt="{{ data.choices[ key ]['label'] }}" />
 						<# } #>
 						<span class="description">{{ data.choices[ key ]['label'] }}</span>
 					</label>

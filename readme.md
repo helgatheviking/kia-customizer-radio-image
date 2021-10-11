@@ -64,11 +64,11 @@ function kia_customizer( $wp_customize ) {
 				'choices'     => array(
 					'tabular' 	=> array(
 						'label' => esc_html__( 'List', 'your-textdomain' ),
-						'img'   => 'assets/images/th-list.svg', // URL to image.
+						'image' => 'assets/images/th-list.svg', // URL to image.
 					),
 					'grid'		=> array(
 						'label' => esc_html__( 'Grid', 'your-textdomain' ),
-						'img'   => 'assets/images/th-grid.svg', // URL to image.
+						'image' => 'assets/images/th-grid.svg', // URL to image.
 					),
 				),
 			),
