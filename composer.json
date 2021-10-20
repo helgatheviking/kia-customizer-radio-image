@@ -1,5 +1,5 @@
 {
-	"name": "helgatheviking/kia-customizer-radio-image",
+	"name": "helgatheviking/kia-customizer-radio-image-control",
 	"type": "wordpress-dropin",
 	"license": "GPL-3.0-or-later",
 	"description": "A Radio Images Control for the WordPress Customizer.",
