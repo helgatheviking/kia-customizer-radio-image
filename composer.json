@@ -3,7 +3,7 @@
 	"type": "wordpress-dropin",
 	"license": "GPL-3.0-or-later",
 	"description": "A Radio Images Control for the WordPress Customizer.",
-	"homepage": "https://github.com/helgatheviking/kia-customizer-radio-immage",
+	"homepage": "https://github.com/helgatheviking/kia-customizer-radio-image-control",
 	"authors": [
 		{
 			"name": "Kathy Darling",
@@ -17,7 +17,7 @@
 		"control"
 	],
 	"support": {
-		"issues": "https://github.com/helgatheviking/kia-customizer-radio-immage/issues"
+		"issues": "https://github.com/helgatheviking/kia-customizer-radio-image-control/issues"
 	},
 	"require": {
 		"php": ">=7.4",
